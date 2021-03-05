@@ -1,0 +1,468 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on exercise page",
+            "match": {
+              "location": "parallel.LoginPageSteps.user_is_on_exercise_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "value Labels and value text fields are displayed",
+            "match": {
+              "location": "parallel.LoginPageSteps.values_labels_text_fields_are_displayed()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:04:24.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Exercise page with right count of values",
+        "description": "",
+        "id": "problem-solving-balance-feature;exercise-page-with-right-count-of-values",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "right count of field values should appear on the screen",
+            "match": {
+              "location": "parallel.LoginPageSteps.right_count_values_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on exercise page",
+            "match": {
+              "location": "parallel.LoginPageSteps.user_is_on_exercise_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "value Labels and value text fields are displayed",
+            "match": {
+              "location": "parallel.LoginPageSteps.values_labels_text_fields_are_displayed()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:04:24.133Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Values should be greater than zero",
+        "description": "",
+        "id": "problem-solving-balance-feature;values-should-be-greater-than-zero",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "value should exist in the value text boxes",
+            "match": {
+              "location": "parallel.LoginPageSteps.values_should_be_displayed_in_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "count of each text box value should be greater than zero",
+            "match": {
+              "location": "parallel.LoginPageSteps.each_textbox_value_greater_than_zero()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on exercise page",
+            "match": {
+              "location": "parallel.LoginPageSteps.user_is_on_exercise_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "value Labels and value text fields are displayed",
+            "match": {
+              "location": "parallel.LoginPageSteps.values_labels_text_fields_are_displayed()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:04:24.131Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Total balance is correct based on listed values",
+        "description": "",
+        "id": "problem-solving-balance-feature;total-balance-is-correct-based-on-listed-values",
+        "after": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "value should exist in total Balance text box",
+            "match": {
+              "location": "parallel.LoginPageSteps.value_should_exist_in_totalBalance_textBox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "total balance should be correct as per listed values",
+            "match": {
+              "location": "parallel.LoginPageSteps.total_balance_should_be_correct_asper_listed_values()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on exercise page",
+            "match": {
+              "location": "parallel.LoginPageSteps.user_is_on_exercise_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "value Labels and value text fields are displayed",
+            "match": {
+              "location": "parallel.LoginPageSteps.values_labels_text_fields_are_displayed()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:04:24.134Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Values are in dollar currency format",
+        "description": "",
+        "id": "problem-solving-balance-feature;values-are-in-dollar-currency-format",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "all the values listed on the screen must be in dollar currency format",
+            "match": {
+              "location": "parallel.LoginPageSteps.values_should_be_in_dollar_currecy_format()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on exercise page",
+            "match": {
+              "location": "parallel.LoginPageSteps.user_is_on_exercise_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "value Labels and value text fields are displayed",
+            "match": {
+              "location": "parallel.LoginPageSteps.values_labels_text_fields_are_displayed()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:04:24.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Total balance equals to sum of values",
+        "description": "",
+        "id": "problem-solving-balance-feature;total-balance-equals-to-sum-of-values",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Sum of all the values listed on the screen must be equal to Total balance",
+            "match": {
+              "location": "parallel.LoginPageSteps.sum_of_values_equal_to_totalBalance()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Problem solving Balance feature",
+    "description": "",
+    "id": "problem-solving-balance-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/parallel/LoginPage.feature",
+    "tags": []
+  }
+]
